@@ -15,5 +15,13 @@ public class Critereon {
         Critereon = this.Critereon;
         
     }
-   
+    public  String getCritereon() 
+    {
+       return Critereon; 
+    }
+   public int getWeight() 
+    {
+       
+        return weight;
+    }
 }
