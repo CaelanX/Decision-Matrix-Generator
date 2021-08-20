@@ -20,9 +20,9 @@ public class Critereon {
     {
        return Critereon; 
     }
-   public int getWeight() 
-    {
+       public int getWeight() 
+        {
        
         return weight;
-    }
+        }
 }

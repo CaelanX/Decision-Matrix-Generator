@@ -11,6 +11,11 @@ public class DecisionMatrix
     
     ArrayList <Critereon> criteron;
     
+    ArrayList<int>Sum;
+    ArrayList<int>Rank;
+    ArrayList<int>Status;
+    
+    
     public DecisionMatrix(Alternatives a, Critereon c){
         
     }
