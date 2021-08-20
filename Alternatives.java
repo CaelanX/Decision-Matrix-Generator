@@ -5,10 +5,11 @@ public class Alternatives
     // instance variables - replace the example below with your own
     String model;
     ArrayList <Critereon> attributes;
-    
-    public Alternatives(String m, ArrayList<Critereon> a){
+    int grade;
+    public Alternatives(String m, ArrayList<Critereon> a, int g){
         model = m;
         attributes = a;
+        grade = g;
     }
     
     public ArrayList<Critereon> getAttributes(){

@@ -14,7 +14,7 @@ public class Critereon {
     public Critereon(String Critereon,int weight){
         weight = this.weight;
         Critereon = this.Critereon;
-        
+
     }
     public  String getCritereon() 
     {
