@@ -2,11 +2,12 @@
 /**
  * Critereon - Critereon Class for Decision matrix.
  * 
- * @author Caelan Neumann and Kevin Bai 
- * @version (a version number or a date)
+ * @author Caelan Neumann. 
+ * @version (v1.0 August 19 2021)
+ * 
  */
-// Standard import for the Scanner class
-import java.util.*;
+
+
 public class Critereon {
     private String Critereon;
     private int weight;
