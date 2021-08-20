@@ -16,10 +16,24 @@ public class Alternatives
     }
     
     public static boolean equals(Alternatives a1, Alternatives a2){
-        boolean sameSize = false;
-        boolean 
+        boolean sameCriterion;
+        boolean sameSize;
+        boolean sameNames;
         
+        sameSize = a1.getAttributes().size() == a2.getAttributes().size();
+        int size = sameSize ? a1.getAttributes().size() : -1;
         
-        return 
+        int i = 0;
+        
+        do{
+            String a1CriterionName = a1.getAttributes().get(i).getCritereon();
+            String a2CriterionName = a2.getAttributes().get(i).getCritereon();
+            sameNames = a1CriterionName == a2CriterionName;
+            i++;
+        }while(sameNames || i < size);
+        
+        sameCriterion = sameSize == sameNames == true;
+        
+        return sameCriterion;
     }
 }
