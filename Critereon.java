@@ -8,15 +8,12 @@
 // Standard import for the Scanner class
 import java.util.*;
 public class Critereon {
-    private String Criteon;
-    private String grade;
-
-    public void newCritereon() {
-
+    private String Critereon;
+    private int weight;
+    public Critereon(String Critereon,int weight){
+        weight = this.weight;
+        Critereon = this.Critereon;
         
     }
-    public void setGrade() {
-        
-    }    
-    
+   
 }
